@@ -1,0 +1,101 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500&family=Inter:wght@400;600;700&family=Roboto&display=swap');
+
+.product{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    align-items: center;
+    border-radius: 5px;
+    background-color: #F5F5F5;
+    border: 2px solid var(--grey-100, #E0E0E0);
+
+    .imgs{
+        padding: 11px 0px 0px 0px;
+        display: flex;
+        width: 300px;
+        height: 150px;
+        flex-shrink: 0;
+        background: var(--grey-0, #F5F5F5);
+        align-items: flex-end;
+        justify-content: center;
+        border-radius: 5px;
+    }
+    
+    .description{
+        display: flex;
+        width: 260px;
+        height: 156px;
+        padding: 20px;
+        align-items: flex-start;
+        gap: 10px;
+        flex-shrink: 0;  
+        flex-direction: column;
+        background-color: white;   
+        border-radius: 5px;
+        background: #FFF;  
+    }
+
+    .title{
+        color: #333;
+        font-family: Inter;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 24px; /* 133.333% */
+    }
+
+    .spam{
+        color: var(--grey-300, #828282);
+        font-family: Inter;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 16px; /* 133.333% */
+    }
+
+    .price{
+        color: var(--color-primary, #27AE60);
+        font-family: Inter;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 24px; /* 171.429% */
+    }
+
+    .button{
+        display: inline-flex;
+        height: 40px;
+        padding: 0px 20px;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        flex-shrink: 0;
+        border-radius: 8px;
+        border: 2px solid var(--Gray-4, #BDBDBD);
+        background: var(--Gray-4, #BDBDBD);
+        color: #FFF;
+        font-family: Inter;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
+}
+.button:hover{
+    background-color: #27AE60;
+    border: 2px solid #27AE60;
+}
+.product:hover{
+    border-radius: 5px;
+    border: 2px solid #27AE60;
+    background: #27AE60;
+}
+
+
+
+@media (max-width: 390px){
+    
+
+}
